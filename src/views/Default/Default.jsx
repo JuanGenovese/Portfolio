@@ -2,16 +2,14 @@ import React from 'react';
 import style from "./Default.module.css";
 import NavBar from '../../components/NavBar/NavBar';
 import Datos from '../../components/Datos/Datos';
+import Presentacion from '../../components/Presentacion/Presentacion';
 
 const Default = () => {
   return (
     <div className={style.contPrincipal}>
       <NavBar/>
       <Datos/>
-      <div className={style.frontEnd}>
-        <img src="/Mifoto.jpg" className={style.imagen}/>
-        <h1>DESARROLLADOR FRONT END</h1>
-      </div>
+      <Presentacion/>
       <div>
         <p> arrow </p>
         <p> Me dedico a aprender</p>

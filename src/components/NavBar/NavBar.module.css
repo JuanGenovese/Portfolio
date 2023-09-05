@@ -1,15 +1,26 @@
 .Nav {
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: rgb(209, 209, 209);
+    margin-left: 3vw;
 }
 
 .Links {
-    width: 25%;
+    width: 28%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 3.5vw;
+    
+}
+
+.Links a {
+    text-decoration: none;
+    color: rgb(209, 209, 209);
 }
