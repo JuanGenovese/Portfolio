@@ -1,12 +1,12 @@
 .Nav {
-    height: 30vh;
+    height: 20vh;
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: x-large;
     color: rgb(209, 209, 209);
     margin-left: 3vw;
 }
