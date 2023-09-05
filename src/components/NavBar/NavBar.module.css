@@ -1,0 +1,15 @@
+.Nav {
+    height: 20vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Links {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
