@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-    <Routes>
-      <Route path="/" element={<Default/>}/>
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Default/>}/>
+      </Routes>
     </>
   )
 }
