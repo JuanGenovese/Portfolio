@@ -3,6 +3,7 @@ import style from "./Default.module.css";
 import NavBar from '../../components/NavBar/NavBar';
 import Datos from '../../components/Datos/Datos';
 import Presentacion from '../../components/Presentacion/Presentacion';
+import AboutMe from '../../components/AboutMe/AboutMe';
 
 const Default = () => {
   return (
@@ -10,11 +11,8 @@ const Default = () => {
       <NavBar/>
       <Datos/>
       <Presentacion/>
-      <div>
-        <p> arrow </p>
-        <p> Me dedico a aprender</p>
-        <h1> JUAN CRUZ GENOVESE</h1>
-      </div>
+      <div className={style.Linea}></div>
+      <AboutMe/>
     </div>
   )
 }

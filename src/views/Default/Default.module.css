@@ -1,3 +1,12 @@
 .contPrincipal {
     height: 100%;
 }
+
+.Linea {
+    border-bottom: 2px solid rgb(209, 209, 209);
+    margin-bottom: 4vh;
+    width: 90%;
+    height: 0px;
+    margin-top: 8;
+    margin-left: 5%;
+}

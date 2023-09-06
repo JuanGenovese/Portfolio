@@ -1,0 +1,52 @@
+.ConteinerImagen {
+    height: 100vh;
+    width: 98.8vw;
+    background-image: url("/Baires.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.ConteinerSombra {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(
+        to bottom,
+        rgba(8, 8, 8) 0%,
+        rgba(0, 0, 0, 0.8)5%, 
+        
+        rgba(0, 0, 0, 0.8)95%,
+        rgba(8, 8, 8)100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escrito {
+    color: rgb(209, 209, 209);
+    height: 70vh;
+    width: 65%;
+    margin-top: 10vh;
+    margin-left: 5%;
+    font-size: 4rem;
+}
+
+.separador {
+    height: 70vh;
+    width: 0%;
+    margin-top: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 3px solid rgb(209, 209, 209);
+}
+
+.imagen {
+    width: 50%;
+    height: 70vh;
+    margin-top: 10vh;
+
+
+}

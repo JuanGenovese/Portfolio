@@ -1,26 +1,65 @@
 .conteiner {
-    height: 100vh;
+    height: 80vh;
 }
 
 .frontEnd {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    margin-top: 5vh;
-    
+    margin-top: 8vh;
+    margin-left: 5%;
+    padding-bottom: 0;
 }
 
 .frontEnd h1 {
     display: flex;
     align-items: center;
     color: rgb(209, 209, 209);
-    font-size: 8rem;
-    margin-left: 4vw;
+    font-size: 6rem;
+    margin-left: 2vw;
+    margin: 0;
+    margin-left: 1vw;
 
 }
 .imagen {
-    height: 275px;    
+    height: 195px;    
     width: 450px;
     object-fit: cover;
     object-position: 0% 27%;
+}
+
+.nombre {
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-right: 5%;
+    color: rgb(209, 209, 209);
+}
+
+.lemaImg {
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre h1 {
+    display: flex;
+    align-items: center;
+    font-size: 6rem;
+    margin-left: 2vw;
+}
+
+.nombre p {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.imagen2 {
+    margin-top: 6vh;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    height: 100px;
 }
