@@ -85,3 +85,15 @@
     margin-top: 5vh;
     font-size: 3rem;
 }
+
+.jobPortal {
+    margin-top: 10vh;
+    margin-left: 3%;
+    display: flex;
+}
+
+.jobPortalImagen {
+    object-fit: cover;
+    height: 140vh;
+    width: 39.4vw;
+}

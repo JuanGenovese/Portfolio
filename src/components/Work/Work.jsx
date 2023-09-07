@@ -15,8 +15,15 @@ const Work = () => {
       <div className={style.Pokemon}>
         <img src="/Portada.jpg" className={style.pokemonImagen}/>
         <div className={style.pokemonTexto}>
-          <h1 className={style.pokemonTextoh1}> POKEDEX </h1>
+          <h1 className={style.pokemonTextoh1}> POKEMONS APP </h1>
           <p> Just a Pokedex</p>
+        </div>
+      </div>
+      <div className={style.jobPortal}>
+        <img src="/FotoJobPortalX.jpg" className={style.jobPortalImagen}/>
+        <div>
+          <h1> JOB PORTAL X</h1>
+          <p> a job portal that connects companies with employees</p>
         </div>
       </div>
     </div>
