@@ -1,13 +1,16 @@
 .ContainerImagen {
     height: 100vh;
     width: 100%;
-    background-image: url("/Jujuy.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .ContainerBackground {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.Pureba {
+    border: 2px solid red;
+    height: 100vh;
+    width: 100%;
 }

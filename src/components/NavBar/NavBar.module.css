@@ -1,6 +1,6 @@
 .Nav {
     height: 20vh;
-    width: 100%;
+    width: 96%;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -9,6 +9,7 @@
     font-size: x-large;
     color: rgb(209, 209, 209);
     margin-left: 3vw;
+    padding-right: 3vw;
 }
 
 .Links {
