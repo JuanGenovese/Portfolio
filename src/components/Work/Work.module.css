@@ -1,7 +1,21 @@
 .ContainerImagen {
     height: 100vh;
     width: 100%;
+    color: rgb(209, 209, 209);
+    margin-top: 15vh;
 }
+
+.ContainerImagenh1 {
+    font-size: 7rem;
+    display: flex;
+    justify-content: end;
+    margin-right: 5.4%;
+    margin-bottom: 10vh;
+    margin-left: 3%;
+    border-bottom: 2px solid rgb(209, 209, 209);
+}
+
+
 
 .ContainerBackground {
     height: 100%;
@@ -9,8 +23,65 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.Pureba {
-    border: 2px solid red;
-    height: 100vh;
-    width: 100%;
+.elNorte {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.imagen {
+    object-fit: cover;
+    height: 120vh;
+    width: 40vw;
+    margin-left: 3%;
+}
+
+.elNorteTexto {
+    height: 90vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.elNorteTextoh1 {
+    text-align: center;
+    font-size: 7rem;
+}
+
+.elNorteTexto p {
+    margin-top: 5vh;
+    font-size: 3rem;
+}
+
+.Pokemon {
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.pokemonImagen {
+    object-fit: cover;
+    height: 120vh;
+    width: 39.2vw;
+    margin-left: 3%;
+}
+
+.pokemonTexto {
+    height: 90vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.pokemonTextoh1 {
+    font-size: 7rem;
+}
+
+.pokemonTexto p {
+    margin-top: 5vh;
+    font-size: 3rem;
 }

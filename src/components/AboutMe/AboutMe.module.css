@@ -6,6 +6,7 @@
     background-size: cover;
     position: relative;
     z-index: -1;
+    margin-bottom: 30vh;
 }
 
 .ConteinerSombra {
@@ -23,13 +24,13 @@
     height: 70vh;
     width: 65%;
     margin-left: 3%;
-    font-size: 4rem;
+    font-size: 3rem;
 
 }
 
 .escrito p {
     font-weight: bold;
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 .separador {
