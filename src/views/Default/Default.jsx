@@ -5,6 +5,7 @@ import Datos from '../../components/Datos/Datos';
 import Presentacion from '../../components/Presentacion/Presentacion';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Work from '../../components/Work/Work';
+import AboutMe2 from '../../components/AboutMe2/AboutMe2';
 
 const Default = () => {
   return (
@@ -12,9 +13,9 @@ const Default = () => {
       <NavBar/>
       <Datos/>
       <Presentacion/>
-      {/*<div className={style.Linea}></div>*/}
       <AboutMe/>
       <Work/>
+      <AboutMe2/>
     </div>
   )
 }

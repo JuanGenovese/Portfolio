@@ -21,9 +21,9 @@ const Work = () => {
       </div>
       <div className={style.jobPortal}>
         <img src="/FotoJobPortalX.jpg" className={style.jobPortalImagen}/>
-        <div>
-          <h1> JOB PORTAL X</h1>
-          <p> a job portal that connects companies with employees</p>
+        <div className={style.jobPortalTexto}>
+          <h1 className={style.jobPortalTextoh1}> JOB PORTAL X</h1>
+          <p className={style.jobPortalTextop}> a job portal that connects companies with employees</p>
         </div>
       </div>
     </div>

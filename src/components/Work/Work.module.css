@@ -97,3 +97,20 @@
     height: 140vh;
     width: 39.4vw;
 }
+
+.jobPortalTexto {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobPortalTextoh1 {
+    font-size: 7rem;
+}
+
+.jobPortalTextop {
+    font-size: 3rem;
+    text-align: center;
+}
