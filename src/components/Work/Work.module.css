@@ -26,7 +26,7 @@
 .elNorte {
     width: auto;
     display: flex;
-    align-items: center;
+    position: relative;
 }
 
 .imagen {
@@ -37,28 +37,53 @@
 }
 
 .elNorteTexto {
-    height: 90vh;
     width: 60%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15vh;
+    position: sticky;
+    top: 15vh;
 }
 
 .elNorteTextoh1 {
     text-align: center;
-    font-size: 6.4rem;
+    font-size: 6.3rem;
+    margin: 0;
 }
 
-.elNorteTexto p {
+.elNorteTextoh1 span {
+    position: relative;
+    display: inline-block;
+}
+
+.elNorteTextoh1 span::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.6rem;
+    bottom:0;
+    left: 0;
+    background-color: rgb(209, 209, 209);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+
+.elNorteTextoh1:hover span::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.elNorteTextop {
     margin-top: 5vh;
-    font-size: 3rem;
+    font-size: 1.7rem;
 }
 
 .Pokemon {
     display: flex;
-    align-items: center;
     margin-top: 10vh;
+    position: relative;
 }
 
 .pokemonImagen {
@@ -69,21 +94,43 @@
 }
 
 .pokemonTexto {
-    height: 90vh;
+    height: 100%;
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15vh;
+    position: sticky;
+    top: 15vh;
 }
 
 .pokemonTextoh1 {
     font-size: 7rem;
+    margin: 0;
+    position: relative;
+    display: inline-block;
 }
 
-.pokemonTexto p {
+.pokemonTextoh1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.6rem;
+    bottom:0;
+    left: 0;
+    background-color: rgb(209, 209, 209);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+
+.pokemonTextoh1:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.pokemonTextop {
     margin-top: 5vh;
-    font-size: 3rem;
+    font-size: 1.7rem;
 }
 
 .jobPortal {
@@ -99,18 +146,42 @@
 }
 
 .jobPortalTexto {
+    height: 100%;
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    top: 15vh;
+    position: sticky;
 }
 
 .jobPortalTextoh1 {
     font-size: 7rem;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.jobPortalTextoh1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.6rem;
+    bottom:0;
+    left: 0;
+    background-color: rgb(209, 209, 209);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+
+.jobPortalTextoh1:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .jobPortalTextop {
-    font-size: 3rem;
-    text-align: center;
+    font-size: 1.7rem;
+    text-align: start;
+    width: 15vw;
 }
