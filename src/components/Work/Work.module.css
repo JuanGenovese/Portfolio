@@ -185,3 +185,34 @@
     text-align: start;
     width: 15vw;
 }
+
+@media screen and (max-width: 1383px) {
+    .ContainerImagenh1{
+        font-size: 4rem;
+    }
+    
+    .elNorteTextoh1 {
+        font-size: 5rem;
+    }
+
+    .elNorteTextop {
+        font-size: 1.4rem;
+    }    
+
+    .pokemonTextoh1 {
+        font-size: 5rem;
+    }
+    
+    .pokemonTextop {
+        font-size: 1.4rem;
+    }
+
+    .jobPortalTextoh1 {
+        font-size: 5rem;
+    }
+
+    .jobPortalTextop {
+        font-size: 1.2rem;
+    }
+    
+}

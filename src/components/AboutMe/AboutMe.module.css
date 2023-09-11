@@ -49,3 +49,9 @@
     object-fit: cover;
 
 }
+
+@media screen and (max-width: 1383px) {
+    .escrito p {
+        font-size: 2rem;
+    }
+}
