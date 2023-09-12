@@ -65,7 +65,7 @@
     height: 100px;
 }
 
-@media screen and (max-width: 1227px) {
+@media screen and (max-width: 1400px) {
     .frontEnd h1 {
         font-size: 4rem;
     }

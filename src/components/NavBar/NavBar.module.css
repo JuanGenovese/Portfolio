@@ -60,7 +60,7 @@
     transform-origin: bottom left;
 }
 
-@media screen and (max-width: 1227px) {
+@media screen and (max-width: 1400px) {
     .Nav p {
         font-size: 1.2rem;
     }

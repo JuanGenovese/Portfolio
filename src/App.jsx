@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { Default } from './views/indexViews';
+import { Default, ElNorteCultiva, PokemonsApp, JobPortal } from './views/indexViews';
 import "./App.css";
 
 function App() {
@@ -7,7 +7,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Default/>}/>
+        <Route exact path="/" element={<Default/>}/>
+        <Route path='/ElNorteCultiva' element={<ElNorteCultiva/>}/>
+        <Route path='/PokemonsApp' element={<PokemonsApp/>}/>
+        <Route path='/JobPortalX' element={<JobPortal/>}/>
       </Routes>
     </>
   )

@@ -15,12 +15,15 @@
     border-bottom: 2px solid rgb(209, 209, 209);
 }
 
-
-
 .ContainerBackground {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.Link {
+    text-decoration: none;
+    color: rgb(209, 209, 209);
 }
 
 .elNorte {
@@ -186,7 +189,7 @@
     width: 15vw;
 }
 
-@media screen and (max-width: 1227px) {
+@media screen and (max-width: 1400px) {
     .ContainerImagenh1{
         font-size: 4rem;
     }
