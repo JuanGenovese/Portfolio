@@ -20,7 +20,6 @@ const PokemonsApp = () => {
           <img src="PokemonsApp/Foto2.png" className={style.carrouselImagen}/>
           <img src="PokemonsApp/Foto3.png" className={style.carrouselImagen}/>
           <img src="PokemonsApp/Foto4.png" className={style.carrouselImagen}/>
-          <img src="PokemonsApp/Foto5.png" className={style.carrouselImagen}/>
         </div>
       </div>
     </div>

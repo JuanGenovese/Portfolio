@@ -2,6 +2,8 @@ import React from 'react';
 import style from "./ElNorteCultiva.module.css";
 
 const ElNorteCultiva = () => {
+  
+
   return (
     <div className={style.Conteiner}>
       <h1 className={style.Titulo}> EL NORTE CULTIVA</h1>
