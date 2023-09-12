@@ -12,7 +12,7 @@ const ElNorteCultiva = () => {
             <p> YEAR </p>
             <span> 2023 </span>
             <p> ROLE </p>
-            <span> Full-Stack Dev </span>
+            <span> Front-End Dev </span>
           </div>
         </div>
         <div className={style.carrousel}>
