@@ -65,10 +65,9 @@
     height: 100px;
 }
 
-@media screen and (max-width: 1383px) {
+@media screen and (max-width: 1227px) {
     .frontEnd h1 {
         font-size: 4rem;
-
     }
 
     .imagen {
@@ -84,3 +83,41 @@
         font-size: x-large;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .imagen {
+        display: inline;
+        height: 25vh;    
+        width: 94vw;
+    }
+
+    .frontEnd {
+        margin-top: 10vh;
+        width: 90%;
+        display: inline-block;
+    }
+
+    .frontEnd h1 {
+        margin-top: 5vh;
+        font-size: 3.5rem;
+    }
+
+    .nombre h1{
+        font-size: 2.4rem;
+        text-align: end;
+        display: none;
+    }
+
+    .lemaImg{
+        margin: 0;
+        width: 70%;
+        height: 25vh;
+        padding: 0;
+        text-align: start;
+    }
+
+
+
+}
+
+

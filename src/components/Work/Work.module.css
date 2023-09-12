@@ -186,7 +186,7 @@
     width: 15vw;
 }
 
-@media screen and (max-width: 1383px) {
+@media screen and (max-width: 1227px) {
     .ContainerImagenh1{
         font-size: 4rem;
     }
@@ -215,4 +215,95 @@
         font-size: 1.2rem;
     }
     
+}
+
+@media screen and (max-width: 991px) {
+    .ContainerImagenh1{
+        font-size: 2rem;
+    }
+
+    .elNorte {
+        display: inline-block;
+        margin-top: 5vh;
+    }
+
+    .imagen {
+        width: 94vw;
+        height: 65vh;
+    }
+
+    .elNorteTexto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 94vw;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    
+    .elNorteTextoh1 {
+        font-size: 1.5rem;
+    }
+
+    .elNorteTextop {
+        text-align: center;
+        font-size: 1rem;
+    }   
+    
+    .Pokemon {
+        display: inline-block;
+    }
+
+    .pokemonImagen {
+        margin-top: 10vh;
+        width: 93.5vw;
+        height: 65vh;
+    }
+
+    .pokemonTexto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 94vw;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+
+    .pokemonTextoh1 {
+        font-size: 1.5rem;
+    }
+    
+    .pokemonTextop {
+        font-size: 1rem;
+    }
+
+    .jobPortal {
+        display: inline-block;
+        margin-bottom: 10vh;
+    }
+
+    .jobPortalImagen{
+        margin-top: 10vh;
+        width: 94vw;
+        height: 65vh;
+    }
+
+    .jobPortalTexto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 94vw;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+
+    .jobPortalTextoh1 {
+        font-size: 1.5rem;
+    }
+
+    .jobPortalTextop {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 100%;
+    }
 }

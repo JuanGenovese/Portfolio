@@ -50,8 +50,23 @@
 
 }
 
-@media screen and (max-width: 1383px) {
+@media screen and (max-width: 1227px) {
     .escrito p {
         font-size: 2rem;
     }
+}
+
+@media screen and (max-width: 991px) {
+    .escrito p {
+        font-size: 1rem;
+    }
+
+    .ConteinerImagen{
+        margin-top: 40vh;
+    }
+
+    .imagen {
+        height: 40vh;
+    }
+
 }

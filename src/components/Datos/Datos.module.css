@@ -10,8 +10,16 @@
     color: rgb(209, 209, 209);
 }
 
-@media screen and (max-width: 1383px) {
+@media screen and (max-width: 1227px) {
     .datosPersonales p {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .datosPersonales {
+        opacity: 0;
+        height: 0;
+        width: 0;
     }
 }
