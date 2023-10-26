@@ -1,6 +1,6 @@
 .ConteinerImagen {
     height: 70vh;
-    width: 98.8vw;
+    width: 98vw;
     background-image: url("Fondos/Baires.jpg");
     background-position: center;
     background-size: cover;
@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 1400px) {
     .escrito p {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 }
 

@@ -192,30 +192,59 @@
 @media screen and (max-width: 1400px) {
     .ContainerImagenh1{
         font-size: 4rem;
+        padding-bottom: 3vh;
+    }
+
+    .imagen {
+        margin-top: 3vh;
     }
     
     .elNorteTextoh1 {
-        font-size: 5rem;
+        font-size: 3rem;
+    }
+
+    .elNorteTextoh1 span::after{
+        height: 0.4rem;
     }
 
     .elNorteTextop {
         font-size: 1.4rem;
-    }    
-
-    .pokemonTextoh1 {
-        font-size: 5rem;
+        text-align: center;
     }
     
+    .pokemonImagen{
+        margin-top: 3vh;
+    }
+
+    .pokemonTextoh1 {
+        font-size: 3rem;
+    }
+    
+    .pokemonTextoh1::after{
+        height: 0.4rem;
+    }
+
     .pokemonTextop {
         font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .jobPortalImagen{
+        margin-top: 3vh;
     }
 
     .jobPortalTextoh1 {
-        font-size: 5rem;
+        font-size: 3rem;
+    }
+
+    .jobPortalTextoh1::after{
+        height: 0.4rem;
     }
 
     .jobPortalTextop {
         font-size: 1.2rem;
+        width: 23vw;
+        text-align: center;
     }
     
 }
