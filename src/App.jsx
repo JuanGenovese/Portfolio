@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { Default, ElNorteCultiva, PokemonsApp, JobPortal } from './views/indexViews';
+import { Default, ElNorteCultiva, PokemonsApp, JobPortal, Blog } from './views/indexViews';
 import "./App.css";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         <Route path='/ElNorteCultiva' element={<ElNorteCultiva/>}/>
         <Route path='/PokemonsApp' element={<PokemonsApp/>}/>
         <Route path='/JobPortalX' element={<JobPortal/>}/>
+        <Route path='/Blog' element={<Blog/>}/>
       </Routes>
     </>
   )

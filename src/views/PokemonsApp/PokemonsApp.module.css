@@ -91,6 +91,7 @@
 
     .description{
         font-size: 1.2rem;
+
     }
 
     .info {
@@ -99,6 +100,7 @@
 
     .info p{
         font-size: 1.3rem;
+        margin-top: 5vh;
     }
 
     .info span {

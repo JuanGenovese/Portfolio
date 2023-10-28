@@ -6,6 +6,7 @@ import Presentacion from '../../components/Presentacion/Presentacion';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Work from '../../components/Work/Work';
 import AboutMe2 from '../../components/AboutMe2/AboutMe2';
+import Contact from '../../components/Contact/Contact';
 
 const Default = () => {
   return (
@@ -13,9 +14,16 @@ const Default = () => {
       <NavBar/>
       <Datos/>
       <Presentacion/>
-      <AboutMe/>
-      <Work/>
-      <AboutMe2/>
+      <div id="about" className={style.AboutMeCont}>
+        <AboutMe/>
+      </div>
+      <div id="work" className={style.WorkCont}>
+        <Work/>
+      </div>
+      <div id="contact">
+        <Contact/>
+      </div>
+      
     </div>
   )
 }

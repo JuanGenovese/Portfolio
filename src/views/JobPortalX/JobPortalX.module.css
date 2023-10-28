@@ -99,6 +99,7 @@
 
     .info p{
         font-size: 1.3rem;
+        margin-top: 5vh;
     }
 
     .info span {
@@ -164,8 +165,8 @@
     }
 
     .carrouselImagen {
-        height: 30vh;
-        margin-bottom: 2.5%;
+        height: 65vh;
+        width: 65vw;
     }
 
 

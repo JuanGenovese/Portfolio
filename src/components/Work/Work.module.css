@@ -1,8 +1,7 @@
 .ContainerImagen {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     color: rgb(209, 209, 209);
-    margin-top: 15vh;
 }
 
 .ContainerImagenh1 {
@@ -46,7 +45,7 @@
     flex-direction: column;
     align-items: center;
     position: sticky;
-    top: 15vh;
+    top: 20vh;
 }
 
 .elNorteTextoh1 {
@@ -103,7 +102,7 @@
     flex-direction: column;
     align-items: center;
     position: sticky;
-    top: 15vh;
+    top: 20vh;
 }
 
 .pokemonTextoh1 {
@@ -154,7 +153,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 15vh;
+    top: 20vh;
     position: sticky;
 }
 
@@ -204,7 +203,7 @@
     }
 
     .elNorteTextoh1 span::after{
-        height: 0.4rem;
+        height: 0.2rem;
     }
 
     .elNorteTextop {
@@ -221,7 +220,7 @@
     }
     
     .pokemonTextoh1::after{
-        height: 0.4rem;
+        height: 0.2rem;
     }
 
     .pokemonTextop {
@@ -238,7 +237,7 @@
     }
 
     .jobPortalTextoh1::after{
-        height: 0.4rem;
+        height: 0.2rem;
     }
 
     .jobPortalTextop {

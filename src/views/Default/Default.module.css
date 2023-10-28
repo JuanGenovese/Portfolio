@@ -1,3 +1,14 @@
 .contPrincipal {
     height: 100%;
+    scroll-behavior: smooth;
+}
+
+.AboutMeCont{
+    display: flex;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+.WorkCont {
+    padding-top: 5vh;
 }
