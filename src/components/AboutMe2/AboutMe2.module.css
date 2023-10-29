@@ -1,15 +1,6 @@
-.ConteinerImagen {
-    height: 80vh;
+.Conteiner {
+    height: 70vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Background {
-    height: 60vh;
-    width: 100%;
-    background-color: rgb(8, 8, 8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,24 +17,22 @@
 
 .emailInput{
     width: 40vw;
-    height: 4vh;
+    height: 5vh;
     margin-bottom: 2vh;
     padding-left: 1vw;
     border: none;
-    border-radius: 500px;
-    background-color: rgb(209, 209, 209);
-    box-shadow: 15px 4px 10px black;
+    background-color: rgba(209, 209, 209, 0.1);
+    box-shadow: 10px 4px 15px black;
 }
 
 .subjectInput{
     width: 40vw;
-    height: 4vh;
+    height: 5vh;
     margin-bottom: 2vh;
     padding-left: 1vw;
     border: none;
-    border-radius: 500px;
-    background-color: rgb(209, 209, 209);
-    box-shadow: 15px 4px 10px black;
+    background-color: rgba(209, 209, 209, 0.1);
+    box-shadow: 10px 4px 15px black;
 }
 
 .form textarea {
@@ -51,18 +40,17 @@
     width: 40vw;
     padding-left: 1vw;
     padding-top: 1vw;
-    border-radius: 25px;
-    background-color: rgb(209, 209, 209);
-    box-shadow: 15px 4px 10px black;
+    border: none;
+    background-color: rgba(209, 209, 209, 0.1);
+    box-shadow: 10px 4px 15px black;
 }
 
 .form button {
     height: 7.5vh;
-    width: 15vw;
+    width: 41.5vw;
     margin-top: 2.5vh;
-    border-radius: 100px;
     border: none;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(209, 209, 209, 0.5);
     font-weight: bold;
     box-shadow: 15px 4px 10px black;
 }
