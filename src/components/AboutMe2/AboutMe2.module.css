@@ -21,8 +21,8 @@
     margin-bottom: 2vh;
     padding-left: 1vw;
     border: none;
-    background-color: rgba(209, 209, 209, 0.1);
-    box-shadow: 10px 4px 15px black;
+    background-color: rgba(209, 209, 209, 0.0);
+    box-shadow: 4px 4px 15px black;
 }
 
 .subjectInput{
@@ -31,8 +31,8 @@
     margin-bottom: 2vh;
     padding-left: 1vw;
     border: none;
-    background-color: rgba(209, 209, 209, 0.1);
-    box-shadow: 10px 4px 15px black;
+    background-color: rgba(209, 209, 209, 0.0);
+    box-shadow: 4px 4px 15px black;
 }
 
 .form textarea {
@@ -41,8 +41,8 @@
     padding-left: 1vw;
     padding-top: 1vw;
     border: none;
-    background-color: rgba(209, 209, 209, 0.1);
-    box-shadow: 10px 4px 15px black;
+    background-color: rgba(209, 209, 209, 0.0);
+    box-shadow: 4px 4px 15px black;
 }
 
 .form button {
@@ -50,7 +50,13 @@
     width: 41.5vw;
     margin-top: 2.5vh;
     border: none;
-    background-color: rgb(209, 209, 209, 0.5);
+    background-color: rgb(209, 209, 209, 0.6);
     font-weight: bold;
-    box-shadow: 15px 4px 10px black;
+    box-shadow: 4px 4px 15px black;
+    transition: 0.3s;
+}
+
+.form button:hover{
+    transition: 0.3s;
+    background-color: rgb(209, 209, 209, 0.9);
 }

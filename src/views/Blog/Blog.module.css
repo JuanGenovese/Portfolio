@@ -65,6 +65,10 @@
 }
 
 .relleno {
-    height: 15vh;
+    height: 10vh;
     background-color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5vw;
 }
