@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.Title {
+    display: none;
+}
+
 .contactConteiner a{
     text-decoration: none;
     color: rgb(209, 209, 209);
@@ -39,4 +43,28 @@
     transform: scaleX(1);
     transform-origin: bottom left;
     cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .contactConteiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .email {
+        font-size: 1.5rem;
+    }
+
+    .Title {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        position: absolute;
+        top: 484vh;
+        width:85%;
+        border-bottom: 2px solid rgb(209, 209, 209);
+    }
 }

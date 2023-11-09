@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./AboutMe2.module.css";
+import style from "./Form.module.css";
 
 const AboutMe2 = () => {
   return (

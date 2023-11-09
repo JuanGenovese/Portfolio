@@ -1,4 +1,4 @@
-.ContainerImagen {
+.ConteinerImagen {
     height: 100%;
     width: 100%;
     color: rgb(209, 209, 209);
@@ -249,18 +249,23 @@
 }
 
 @media screen and (max-width: 991px) {
+    .ConteinerImagen {
+        width: 100%;
+    }
+
     .ContainerImagenh1{
         font-size: 2rem;
+        margin-bottom: 0;
     }
 
     .elNorte {
         display: inline-block;
-        margin-top: 5vh;
+        margin-top: 1vh;
     }
 
     .imagen {
         width: 94vw;
-        height: 65vh;
+        height: 55vh;
     }
 
     .elNorteTexto {
@@ -269,7 +274,7 @@
         justify-content: center;
         width: 94vw;
         margin-left: 3%;
-        margin-top: 3%;
+        margin-top: 10%;
     }
     
     .elNorteTextoh1 {
@@ -282,7 +287,9 @@
     }   
     
     .Pokemon {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
     }
 
     .pokemonImagen {
@@ -297,7 +304,7 @@
         justify-content: center;
         width: 94vw;
         margin-left: 3%;
-        margin-top: 3%;
+        margin-top: 10%;
     }
 
     .pokemonTextoh1 {
@@ -309,8 +316,11 @@
     }
 
     .jobPortal {
-        display: inline-block;
-        margin-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
 
     .jobPortalImagen{
@@ -323,9 +333,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 94vw;
-        margin-left: 3%;
-        margin-top: 3%;
+        width: 100%;
+        margin-top: 10%;
+        text-align: center;
     }
 
     .jobPortalTextoh1 {

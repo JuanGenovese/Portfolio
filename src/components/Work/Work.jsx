@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Work = () => {
   return (
-    <div className={style.ContainerImagen}>
+    <div className={style.ConteinerImagen}>
       <h1 className={style.ContainerImagenh1}> Work </h1>
       <div className={style.elNorte}>
         <img src="Fondos/Faso2.jpg" className={style.imagen}/>

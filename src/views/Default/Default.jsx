@@ -4,8 +4,7 @@ import NavBar from '../../components/NavBar/NavBar';
 import Datos from '../../components/Datos/Datos';
 import Presentacion from '../../components/Presentacion/Presentacion';
 import AboutMe from '../../components/AboutMe/AboutMe';
-import Work from '../../components/Work/Work';
-import AboutMe2 from '../../components/AboutMe2/AboutMe2';
+import Work from '../../components/Work/Work'; 
 import Contact from '../../components/Contact/Contact';
 
 const Default = () => {
