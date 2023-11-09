@@ -1,6 +1,7 @@
 .conteiner {
     height: 80vh;
     margin-bottom: 20vh;
+    overflow: hidden;
 }
 
 .frontEnd {

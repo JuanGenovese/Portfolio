@@ -3,7 +3,6 @@ import { Default, ElNorteCultiva, PokemonsApp, JobPortal, Blog } from './views/i
 import "./App.css";
 
 function App() {
-
   
   return (
     <>
