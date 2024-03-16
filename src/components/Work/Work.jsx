@@ -1,11 +1,33 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import style from "./Work.module.css";
 import { Link } from 'react-router-dom';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin( ScrollTrigger );
 
 const Work = () => {
+
+  const WorkRef = useRef(null)
+
+  useEffect(() => {
+    const Work = WorkRef.current
+
+    gsap.to(Work, {
+      scrollTrigger: {
+        trigger:Work,
+        start: "top 75%",
+        end: "top 25%",
+        scrub: true
+      },
+      x:1340,
+      ease:"power1.inOut"
+    })
+  })
+
   return (
     <div className={style.ConteinerImagen}>
-      <h1 className={style.ContainerImagenh1}> Work </h1>
+      <h1 ref={WorkRef} className={style.ContainerImagenh1}> Work </h1>
       <div className={style.elNorte}>
         <img src="Fondos/Faso2.jpg" className={style.imagen}/>
         <div className={style.elNorteTexto}>

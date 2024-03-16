@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import style from "./Presentacion.module.css";
 import gsap from "gsap";
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin( ScrollTrigger );
 
 const Presentacion = () => {
   const FrontEndRef = useRef(null);
@@ -17,17 +20,21 @@ const Presentacion = () => {
     const Nombre = NombreRef.current;
     const LemaImg = LemaImgRef.current;
 
-    const tl = gsap.timeline();
+    const tl = gsap.timeline()
 
     tl.fromTo(Foto1, {x: -200}, {x:0, duration:0.8, ease:"power1.out"})
-      .fromTo(FrontEnd, {opacity:0}, { opacity: 1, duration:0.7, ease:"power1.inOut"})
-      .fromTo(Developer, {opacity:0}, { opacity: 1, duration:0.7, ease:"power1.inOut"})
-      .fromTo(Nombre, {x: 800}, {x:0, duration:0.8, ease:"power1.inOut"})
-      .fromTo(LemaImg, {opacity: 0}, {opacity: 1, duration: 1, ease:"power1.inOut"})
+      .fromTo(FrontEnd, {opacity:0}, { opacity: 1, duration:0.4, ease:"power1.inOut"})
+      .fromTo(Developer, {opacity:0}, { opacity: 1, duration:0.4, ease:"power1.inOut"})
+      
+    gsap.fromTo(Nombre, {x:200}, {x:0, duration:2 , ease:"power1.out"})
+
+    gsap.fromTo(LemaImg, {y:-100, x:-100, opacity:0}, {y:0, x:0, opacity:1, duration:2 , ease:"power1.out"})
 
 
     return () => {
     }
+
+    
   }, []);
 
   return (
