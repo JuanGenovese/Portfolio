@@ -53,18 +53,22 @@
     }
     
     .email {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     .Title {
         display: flex;
         justify-content: end;
         align-items: center;
-        padding-right: 5%;
-        padding-bottom: 5%;
+        margin-top: 51vh;
+        margin-bottom: 100vh;
+        padding-right: 0%;
+        padding-bottom: 2%;
         position: absolute;
         top: 484vh;
-        width:85%;
+        width:92%;
         border-bottom: 2px solid rgb(209, 209, 209);
     }
 }

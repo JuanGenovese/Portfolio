@@ -39,7 +39,7 @@ const NavBar = () => {
         <a href="/#about"><p ref={MenuItem1Ref}>About,</p></a>
         <a href="/#work"><p ref={MenuItem2Ref}>Work,</p></a>
         <a href="/#contact"><p ref={MenuItem3Ref}>Contact,</p></a>
-        <a href="https://www.instagram.com/independent.software/" target='blank'><p ref={MenuItem4Ref}>we as coders</p></a>
+        <a href="https://www.instagram.com/weareindependents/" target='blank'><p ref={MenuItem4Ref}>we as coders</p></a>
       </nav>
     </div>
   )

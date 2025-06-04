@@ -16,14 +16,14 @@ const Work = () => {
     gsap.to(Work, {
       scrollTrigger: {
         trigger:Work,
-        start: "top 75%",
-        end: "top 25%",
+        start: "top 100%",
+        end: "bottom center",
         scrub: true
       },
-      x:1340,
+      xPercent:49,
       ease:"power1.inOut"
     })
-  })
+  }, [])
 
   return (
     <div className={style.ConteinerImagen}>

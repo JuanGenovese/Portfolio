@@ -17,26 +17,13 @@ const AboutMe = () => {
     gsap.to(Escrito, {
       scrollTrigger: {
         trigger: Escrito,
-        start: "bottom 100%",
-        end: "bottom 80%",
-        scrub: true,
-
+        start: "top 100%",
+        end: "bottom 100%",
+        //markers: true
       },
       opacity: 1,
       ease:"power1.inOut",
-      duration: 1
-    })
-
-    gsap.to(Escrito, {
-      scrollTrigger: {
-        trigger: Escrito,
-        start: "top 60%",
-        end: "bottom 90%",
-        scrub: true,
-
-      },
-      opacity: 1,
-      ease:"power1.inOut"
+      duration: 0.75
     })
 
   }, [])

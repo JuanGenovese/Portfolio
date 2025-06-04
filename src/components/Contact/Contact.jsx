@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
   return (
     <div className={style.contactConteiner}>
-      <h1 className={style.Title}> Contact </h1>
       <Link to="/Blog">
         <p className={style.email}>juancruzgenovese22@gmail.com</p>
       </Link>

@@ -8,8 +8,8 @@
 .ContainerImagenh1 {
     position: absolute;
     top: 245vh;
-    right: 100vw;
-    width: 90%;
+    right: 45vw;
+    width: 92%;
     font-size: 7rem;
     display: flex;
     justify-content: end;
@@ -85,6 +85,9 @@
 .elNorteTextop {
     margin-top: 5vh;
     font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Pokemon {
@@ -138,6 +141,9 @@
 .pokemonTextop {
     margin-top: 5vh;
     font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .jobPortal {
@@ -190,7 +196,10 @@
 .jobPortalTextop {
     font-size: 1.7rem;
     text-align: start;
-    width: 15vw;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1400px) {

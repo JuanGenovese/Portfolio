@@ -22,7 +22,7 @@ const Datos = () => {
   return (
     <div className={style.datosPersonales}>
       <p ref={FreelancerRef}> Currently freelance <br></br> developer</p>
-      <p ref={LocationRef}> Based in Argentina <br></br>Jujuy</p>
+      <p ref={LocationRef}> Based in Argentina <br></br>Córdoba</p>
     </div>
   )
 }
