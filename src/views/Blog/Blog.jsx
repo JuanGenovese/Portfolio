@@ -15,7 +15,7 @@ const Blog = () => {
       <div className={style.primeraVista}>
         <div className={style.nav}>
           <a href="/"><p className={style.nombre}>Juan Cruz Genovese</p></a>
-          <a href="https://www.instagram.com/independent.software/" target='blank'><p className={style.weAsGrowers}>we as coders</p></a>
+          <a href="https://www.instagram.com/weareindependents/" target='blank'><p className={style.weAsGrowers}>we as coders</p></a>
         </div>
         <div className={style.presentacionConteiner}>
           <h1 className={style.presentacion}>DO YOU WANT TO WORK TOGETHER? <br />OR JUST MAKE A FRIEND...</h1>
