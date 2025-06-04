@@ -20,6 +20,21 @@
 
 .primeraVista {
     background-color: rgb(3, 3, 3);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    margin-left: 3vw;
+    width: 94vw;
+    height: 20vh;
+    display: flex;
+    align-items:center;
+    justify-content:space-between
+
 }
 
 .nombre {
@@ -28,18 +43,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
     top: 0;
     left: 6vh;
-    font-size: large;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
 .weAsGrowers {
-    position: fixed;
     top: 4vh;
     right: 20vh;
-    font-size: large;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -70,4 +83,35 @@
     justify-content: end;
     align-items: center;
     padding-right: 5vw;
+}
+
+@media screen and (max-width: 991px) {
+    .Fondo {
+        width: 100vw;
+    }
+    .primeraVista {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .presentacionConteiner {
+        width: 100vw;
+        margin-right: 5vw;
+        display: flex;
+    }
+    .presentacion{
+        font-size: 2rem;
+    }
+
+    .nav {
+        height: 10vh;
+    }
+
+    .nombre {
+        font-size: 1rem;
+    }
+
+    .weAsGrowers {
+        font-size: 1rem;
+    }
 }
