@@ -85,6 +85,21 @@
     padding-right: 5vw;
 }
 
+@media screen and (max-width: 1400px) {
+    .presentacion {
+        font-size: 3rem;
+    }
+
+    .nombre {
+        font-size: 1rem;
+    }
+
+    .weAsGrowers {
+        font-size: 1rem;
+    }
+
+}
+
 @media screen and (max-width: 991px) {
     .Fondo {
         width: 100vw;

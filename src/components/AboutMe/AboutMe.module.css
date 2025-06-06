@@ -26,12 +26,13 @@
     width: 65%;
     margin-left: 3%;
     font-size: 3rem;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .escrito p {
     font-weight: bold;
-    margin-top: 15vh;
 }
 
 .separador {

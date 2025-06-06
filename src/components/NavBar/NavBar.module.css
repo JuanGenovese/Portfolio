@@ -48,9 +48,14 @@
     transform-origin: bottom left;
 }
 
+.contact {
+    color: rgb(162, 116, 32);
+}
+
+
 @media screen and (max-width: 1400px) {
     .Nav p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 

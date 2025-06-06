@@ -32,8 +32,7 @@ const AboutMe = () => {
     <div className={style.ConteinerImagen}>
         <div ref={EscritoRef} className={style.ConteinerSombra}>
             <div className={style.escrito}>
-                <p>I am a person who goes fast... my terapist told me that it is anxiety (lol).
-                <br/> However, when coupled with my strong drive for personal growth, continuous learning, and resilience, it has propelled me significantly closer to my goals, while also enhancing my overall peace of mind</p>
+                <p>Over the past two years, I’ve collaborated on projects building responsive, accessible front-end interfaces using React.<br/>My focus is always on understanding the business behind each project and translating it into web experiences that drive results—better conversions, higher user retention, and reduced technical debt</p>
             </div>
             <div className={style.separador}/>
             <img src="FotosPers/Face2.jpg" className={style.imagen}/>

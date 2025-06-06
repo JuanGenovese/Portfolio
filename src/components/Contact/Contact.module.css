@@ -45,6 +45,12 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1400px) {
+    .email {
+        font-size: 3rem;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .contactConteiner {
         display: flex;

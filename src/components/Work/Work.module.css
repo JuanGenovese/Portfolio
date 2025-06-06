@@ -10,7 +10,7 @@
     top: 245vh;
     right: 45vw;
     width: 92%;
-    font-size: 7rem;
+    font-size: 5rem;
     display: flex;
     justify-content: end;
     margin-right: 5.4%;
@@ -55,7 +55,7 @@
 
 .elNorteTextoh1 {
     text-align: center;
-    font-size: 6.3rem;
+    font-size: 5.2rem;
     margin: 0;
 }
 
@@ -68,7 +68,7 @@
     content: "";
     position: absolute;
     width: 100%;
-    height: 0.6rem;
+    height: 0.3rem;
     bottom:0;
     left: 0;
     background-color: rgb(209, 209, 209);
@@ -114,7 +114,7 @@
 }
 
 .pokemonTextoh1 {
-    font-size: 7rem;
+    font-size: 5.2rem;
     margin: 0;
     position: relative;
     display: inline-block;
@@ -124,7 +124,7 @@
     content: "";
     position: absolute;
     width: 100%;
-    height: 0.6rem;
+    height: 0.3rem;
     bottom:0;
     left: 0;
     background-color: rgb(209, 209, 209);
@@ -161,25 +161,28 @@
 .jobPortalTexto {
     height: 100%;
     width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     top: 20vh;
     position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .jobPortalTextoh1 {
-    font-size: 7rem;
+    font-size: 5.2rem;
     margin: 0;
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28.5vw;
 }
 
 .jobPortalTextoh1::after {
     content: "";
     position: absolute;
     width: 100%;
-    height: 0.6rem;
+    height: 0.3rem;
     bottom:0;
     left: 0;
     background-color: rgb(209, 209, 209);
@@ -195,8 +198,7 @@
 
 .jobPortalTextop {
     font-size: 1.7rem;
-    text-align: start;
-    width: 40vw;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,7 +206,7 @@
 
 @media screen and (max-width: 1400px) {
     .ContainerImagenh1{
-        font-size: 4rem;
+        font-size: 2.5rem;
         padding-bottom: 3vh;
     }
 
@@ -213,15 +215,15 @@
     }
     
     .elNorteTextoh1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .elNorteTextoh1 span::after{
-        height: 0.2rem;
+        height: 0.1rem;
     }
 
     .elNorteTextop {
-        font-size: 1.4rem;
+        font-size: 1rem;
         text-align: center;
     }
     
@@ -230,15 +232,15 @@
     }
 
     .pokemonTextoh1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .pokemonTextoh1::after{
-        height: 0.2rem;
+        height: 0.1rem;
     }
 
     .pokemonTextop {
-        font-size: 1.4rem;
+        font-size: 1rem;
         text-align: center;
     }
 
@@ -247,16 +249,15 @@
     }
 
     .jobPortalTextoh1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .jobPortalTextoh1::after{
-        height: 0.2rem;
+        height: 0.1rem;
     }
 
     .jobPortalTextop {
-        font-size: 1.2rem;
-        width: 23vw;
+        font-size: 1rem;
         text-align: center;
     }
     
