@@ -41,31 +41,31 @@ const AboutMe2 = () => {
     <div className={style.Conteiner}>
         <div className={style.Background}>
           <form className={style.form} onSubmit={sendEmail}>
-            <h2> Send me an email to talk!</h2>
+            <h2> Send me an email!</h2>
             <input 
               className={style.emailInput} 
               type="email" 
-              placeholder='Your email or link to your contact channel'
+              placeholder='Email'
               value={contact}
               onChange={(e) => setContact(e.target.value)}
             />
             <input 
               className={style.subjectInput} 
               type="text"  
-              placeholder='The topic'
+              placeholder='Topic'
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
             />
             <input 
               className={style.subjectInput} 
               type="text" 
-              placeholder='Who are u'
+              placeholder='You name'
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
 
             <textarea 
-            placeholder='Drop your message here :)'
+            placeholder='Message'
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             />

@@ -18,11 +18,11 @@ const Blog = () => {
           <a href="https://www.instagram.com/weareindependents/" target='blank'><p className={style.weAsGrowers}>we as coders</p></a>
         </div>
         <div className={style.presentacionConteiner}>
-          <h1 className={style.presentacion}>DO YOU WANT TO WORK TOGETHER? <br />OR JUST MAKE A FRIEND...</h1>
+          <h1 className={style.presentacion}>WOULD YOU LIKE TO WORK TOGETHER? <br /> FILL OUT THE FORM BELOW</h1>
         </div>
       </div> 
       <Form/>
-      <div className={style.relleno}> IndependenT dev</div>
+      <div className={style.relleno}> @IndependenT</div>
     </div>
   )
 }
